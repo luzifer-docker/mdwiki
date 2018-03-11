@@ -13,8 +13,8 @@ RUN set -ex \
 
 COPY docker-entrypoint.sh /
 
-VOLUME /md-app
-WORKDIR /md-app
+VOLUME /data
+WORKDIR /data
 
 EXPOSE 80
 
